@@ -1,0 +1,10 @@
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\bin\Debug\netcoreapp3.1\DE-API.exe
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\obj\Debug\netcoreapp3.1\DE-API.csprojAssemblyReference.cache
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\obj\Debug\netcoreapp3.1\DE-API.AssemblyInfoInputs.cache
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\obj\Debug\netcoreapp3.1\DE-API.AssemblyInfo.cs
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\obj\Debug\netcoreapp3.1\DE-API.RazorTargetAssemblyInfo.cache
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\obj\Debug\netcoreapp3.1\staticwebassets\DE-API.StaticWebAssets.Manifest.cache
+C:\Users\Jasmine Williams\Desktop\workspace\DE-API\DE-API\obj\Debug\netcoreapp3.1\staticwebassets\DE-API.StaticWebAssets.xml
