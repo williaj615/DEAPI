@@ -91,6 +91,10 @@ namespace DEAPI.Controllers
                             DepartmentId = reader.GetInt32(reader.GetOrdinal("DepartmentId"))
                         };
                     }
+                    else
+                    {
+                        return NotFound();
+                    }
                     reader.Close();
 
                     return Ok(employee);
@@ -195,6 +199,25 @@ namespace DEAPI.Controllers
                 else
                 {
                     throw;
+                }
+            }
+        }
+
+        private bool EmployeeExists(int id)
+        {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = @"
+                        SELECT Id, FirstName, LastName, DepartmentId
+                        FROM Employee
+                        WHERE Id = @id";
+                    cmd.Parameters.Add(new SqlParameter("@id", id));
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    return reader.Read();
                 }
             }
         }
